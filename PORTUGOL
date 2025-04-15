@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+  real n1, n2, n3, media
+    inteiro p1, p2, p3
+    escreva("Informe sua primeira nota, o peso desta prova é de 3, ")
+    leia(n1)
+    escreva("me informe a segunda nota, o peso desta prova é de 2, ")
+    leia(n2)
+    escreva("por fim a terceira nota, o peso desta prova é de 4, ")
+    leia(n3)
+    p1 = 3
+    p2 = 2
+    p3 = 4
+    media = ((n1 * p1) + (n2 * p2) + (n3 * p3)) / (p1 + p2 + p3)
+    escreva("Sua média ponderada foi de " + media)
+  }
+}  
+  }
+}
